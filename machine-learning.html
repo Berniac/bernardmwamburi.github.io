@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Machine Learning — Bernard Mwamburi</title>
+  <meta name="description" content="Machine Learning projects by Bernard Mwamburi — predictive modeling, NLP, computer vision, and recommendation systems." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="brand"><span class="logo">BM</span> Bernard Mwamburi</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="machine-learning.html" class="active">Machine Learning</a></li>
+        <li><a href="data-visualization.html">Data Visualization</a></li>
+        <li><a href="big-data-analytics.html">Big Data</a></li>
+        <li><a href="projects.html">Projects</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <div class="container reveal">
+      <span class="eyebrow">🤖 Machine Learning</span>
+      <h1>Models that predict, classify &amp; recommend</h1>
+      <p>
+        From exploratory analysis to deployed models — supervised and unsupervised
+        learning, deep learning, and NLP applied to real problems. Below is a selection
+        of representative projects.
+      </p>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-3">
+
+        <article class="project reveal">
+          <div class="thumb">📈</div>
+          <div class="body">
+            <h3>Customer Churn Prediction</h3>
+            <p>Gradient-boosted model predicting which customers are likely to leave, with SHAP-based explanations to guide retention campaigns.</p>
+            <div class="tags">
+              <span class="tag">Python</span><span class="tag">XGBoost</span><span class="tag">SHAP</span>
+            </div>
+            <div class="links">
+              <a href="#">Case study →</a><a href="https://github.com/berniac" target="_blank" rel="noopener">Code →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="thumb">💬</div>
+          <div class="body">
+            <h3>Sentiment Analysis (NLP)</h3>
+            <p>Transformer-based classifier that scores customer reviews as positive, neutral, or negative to track brand sentiment over time.</p>
+            <div class="tags">
+              <span class="tag">NLP</span><span class="tag">Transformers</span><span class="tag">PyTorch</span>
+            </div>
+            <div class="links">
+              <a href="#">Case study →</a><a href="https://github.com/berniac" target="_blank" rel="noopener">Code →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="thumb">🖼️</div>
+          <div class="body">
+            <h3>Image Classification (CNN)</h3>
+            <p>Convolutional neural network trained to categorize images, with data augmentation and transfer learning for strong accuracy on limited data.</p>
+            <div class="tags">
+              <span class="tag">Deep Learning</span><span class="tag">TensorFlow</span><span class="tag">CNN</span>
+            </div>
+            <div class="links">
+              <a href="#">Case study →</a><a href="https://github.com/berniac" target="_blank" rel="noopener">Code →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="thumb">🎬</div>
+          <div class="body">
+            <h3>Recommendation System</h3>
+            <p>Collaborative-filtering engine that suggests relevant items to users based on behavior, evaluated with precision@k and recall@k.</p>
+            <div class="tags">
+              <span class="tag">Recsys</span><span class="tag">Matrix Factorization</span><span class="tag">Surprise</span>
+            </div>
+            <div class="links">
+              <a href="#">Case study →</a><a href="https://github.com/berniac" target="_blank" rel="noopener">Code →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="thumb">📉</div>
+          <div class="body">
+            <h3>Sales Forecasting</h3>
+            <p>Time-series model combining seasonality and external features to forecast demand, reducing stockouts and over-ordering.</p>
+            <div class="tags">
+              <span class="tag">Time Series</span><span class="tag">Prophet</span><span class="tag">LightGBM</span>
+            </div>
+            <div class="links">
+              <a href="#">Case study →</a><a href="https://github.com/berniac" target="_blank" rel="noopener">Code →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="thumb">🩺</div>
+          <div class="body">
+            <h3>Risk Scoring Model</h3>
+            <p>Interpretable classification model that scores risk with calibrated probabilities and a clear, auditable decision threshold.</p>
+            <div class="tags">
+              <span class="tag">Classification</span><span class="tag">scikit-learn</span><span class="tag">Calibration</span>
+            </div>
+            <div class="links">
+              <a href="#">Case study →</a><a href="https://github.com/berniac" target="_blank" rel="noopener">Code →</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Approach -->
+  <section class="section" style="padding-top:0;">
+    <div class="container">
+      <div class="card reveal">
+        <span class="eyebrow">How I work</span>
+        <h2 style="margin-top:8px;">My ML workflow</h2>
+        <div class="grid grid-3" style="margin-top:20px;">
+          <div><h3>1 · Frame &amp; explore</h3><p class="muted">Define the objective and success metric, then dig into the data to understand what's really there.</p></div>
+          <div><h3>2 · Model &amp; validate</h3><p class="muted">Engineer features, compare models, and validate honestly with cross-validation and holdout sets.</p></div>
+          <div><h3>3 · Ship &amp; monitor</h3><p class="muted">Package the model, expose it via an API, and track performance so it stays reliable over time.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="cta reveal">
+      <h2>Have a prediction problem?</h2>
+      <p>If there's a pattern in your data, there's probably a model that can help. Let's explore it.</p>
+      <a href="mailto:bwadero@gmail.com" class="btn btn-primary">Discuss a project</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <div class="brand" style="margin-bottom:6px;"><span class="logo">BM</span> Bernard Mwamburi</div>
+        <p class="muted" style="margin:0; font-size:0.9rem;">© <span data-year>2026</span> Bernard Mwamburi · Data Science Portfolio</p>
+      </div>
+      <div class="social">
+        <a href="mailto:bwadero@gmail.com" title="Email" aria-label="Email">✉️</a>
+        <a href="https://github.com/berniac" title="GitHub" aria-label="GitHub" target="_blank" rel="noopener">🐙</a>
+        <a href="#" title="LinkedIn" aria-label="LinkedIn" target="_blank" rel="noopener">in</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
