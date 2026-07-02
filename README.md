@@ -43,9 +43,9 @@ The content ships as a realistic template. To personalize it:
    experience/education timelines and skill levels.
 2. **Project pages** — swap the placeholder project cards for your real projects.
    Update titles, descriptions, tags, and the `href` links to case studies / repos.
-3. **Links** — the LinkedIn link (`in` icon) points to `#`; set it to your profile.
-   GitHub links point to `https://github.com/berniac` and email to
-   `bwadero@gmail.com` — update if needed.
+3. **Links** — LinkedIn and GitHub are wired to
+   `https://www.linkedin.com/in/bernard-mwamburi-ms-6798a7144/` and
+   `https://github.com/Berniac`; email is `bwadero@gmail.com` — update if needed.
 4. **Images** — drop images into `assets/img/` and reference them in the project
    thumbnails (currently emoji placeholders).
 
